@@ -36,7 +36,7 @@ namespace ForeignExchange
             var Euros = Pesos / 3531.05105M;
             var Pounds = Pesos / 3907.23724M;
 
-            DollarsEntry.Text = string.Format("${0:N2}", Dollar);//c2 number-n2 pesos-
+            DollarsEntry.Text = string.Format("${0:N2}", Dollar);//c2 number-n2 pesos
             EurosEntry.Text=string.Format("€{0:N2}", Euros);
             PoundsEntry.Text=string.Format("£{0:N2}", Pounds);
 
